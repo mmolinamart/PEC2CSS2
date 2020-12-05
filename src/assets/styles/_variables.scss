@@ -1,0 +1,28 @@
+@use "sass:color";
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+  Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-brush: 'Brush Script MT', cursive;
+$principal: #fff;
+$parrafos: #282828;
+$linea: #282828;
+$titulo: 'Fjalla One', sans-serif;
+$fondo: #fff;
+
+@mixin titulo {
+  color: #cb23af;
+}
+
+@mixin relleno {
+  background-color: #c733ff;
+}
+
+@mixin noticias {
+  color: #af33de;
+}
+
+.card-img-top {
+  height: 50%;
+}
